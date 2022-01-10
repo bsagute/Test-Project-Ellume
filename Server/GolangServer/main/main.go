@@ -36,8 +36,10 @@ var wg sync.WaitGroup
 
 func main() {
 
-	//*GO Routine DB connection Call
-	ConnectDBUsingGoRoutine()
+	//!GO Routine DB connection Call
+	// ConnectDBUsingGoRoutine()
+	////!
+
 	confighelper.InitViper()
 	e := echo.New()
 	//GO ROUTINE CONNECTING TO DIFFERENT DATABASE
